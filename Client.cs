@@ -455,6 +455,8 @@ namespace Client
             }
 
             //Draw walls marking the game area
+            //They are drawn around a small plaza in town
+            //You need to create proper spawnpoints in map.lua on server's map
             DrawLine(new Vector3(75.3503f, -1010.71f, 31f), new Vector3(152.691f, -776.014f, 31f), new Vector4(255, 0, 0, 255));
             DrawLine(new Vector3(320.22f, -827.823f, 31f), new Vector3(152.691f, -776.014f, 31f), new Vector4(255, 0, 0, 255));
             DrawLine(new Vector3(320.22f, -827.823f, 31f), new Vector3(232.6191f, -1080.6f, 31f), new Vector4(255, 0, 0, 255));
